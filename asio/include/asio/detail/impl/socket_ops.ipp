@@ -26,6 +26,7 @@
 #include "asio/detail/assert.hpp"
 #include "asio/detail/socket_ops.hpp"
 #include "asio/error.hpp"
+#include <malloc.h>
 
 #if defined(ASIO_WINDOWS_RUNTIME)
 # include <codecvt>
